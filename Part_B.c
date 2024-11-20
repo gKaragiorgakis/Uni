@@ -20,7 +20,6 @@ main()
           h=1;
           printf("The result is: %llu\n", h); 
      }else{
-          //se auto to simeio kaloude i recursive sinartisi kai i mi recursive sinartisi
           recursive=fibonaki_1(x);
           non_recursive=fibonaki_2(x);
           printf("The number of subs in the recursive is: %llu\n", s2);
@@ -50,7 +49,6 @@ long long fibonaki_2(long long k)
 //recursive 
 long long fibonaki_1(long long y)
 {
-     //oi prwtoi 2 elenxoi xrisimopioude otan to programma xana kalei tin sinartisi(recursive) etsi wste otan ftanei se mia gnwstei timi na stamataei kai na tin dinei stin sinartisi 
      if(y==0){
           fibo=0;
           printf("Computing fibonaki_1(%llu)\n", y);

@@ -1,4 +1,4 @@
-# labC1
+# labC1 ECE TUC
 The first lab exercise in C
 
 Lab Description:
